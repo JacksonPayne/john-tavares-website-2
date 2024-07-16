@@ -1,0 +1,84 @@
+/* Name: Jackson Payne
+   Student Number: 8757065
+*/
+
+/* Root element */
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #669bcc9f;
+}
+
+/* Body */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #1662a052;
+    border: 0.1rem solid #000000;
+}
+
+/* Header & Footer */
+header, footer {
+    text-align: center;
+    background: linear-gradient(to right, #4a90e2, #1504ffbe);
+    color: #ffffff;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Main Layout */
+main, aside {
+    float: left;
+    margin: 1rem;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 28%;
+}
+
+main section, aside section {
+    margin-bottom: 1.5rem;
+}
+
+/* Headings */
+main h2, aside h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Quotes */
+q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #555555;
+    border: 0.1rem solid #000000;
+    padding: 0.5rem;
+    display: block;
+    box-shadow: 2px 2px 5px #888;
+}
+
+/* Figure & Image, Video */
+figure {
+    border: 0.1rem solid #000000;
+    border-radius: 0.5rem;
+    background-color: #a6ff00;
+    padding: 0.5rem;
+    text-align: center;
+}
